@@ -110,3 +110,8 @@ function mouseReleased(){
   
 }
 
+function keyPressed(){
+  if(keyCode === 32){
+      slingshot.attach(polygon.body); 
+  }
+}
